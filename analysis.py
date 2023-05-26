@@ -1,6 +1,4 @@
 # !pip install rake-nltk
-# need to install pyemd for using gensim.models.KeyedVectors.wmdistance(...)
-# !pip install pyemd
 import math
 from typing import List, Set, Dict, Tuple, Union, Counter, Iterable, Iterator, Callable, NamedTuple
 from collections import Counter
