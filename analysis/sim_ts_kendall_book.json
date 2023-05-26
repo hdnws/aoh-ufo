@@ -1,0 +1,167 @@
+{
+    "(none,bow)<->(none,tfidf)": {
+        "correlation_avg": 0.24893534649632207,
+        "correlation_min": 0.1753774680603949,
+        "correlation_max": 0.2752613240418118,
+        "pvalue_geom_avg": 0.01923935757869411,
+        "pvalue_max": 0.10174632263191631,
+        "pvalue_min": 0.010215112582179827,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(none,bow)<->(word2vec,bow)": {
+        "correlation_avg": 0.6368563685636855,
+        "correlation_min": 0.5888501742160278,
+        "correlation_max": 0.7259001161440186,
+        "pvalue_geom_avg": 2.577337266432432e-09,
+        "pvalue_max": 3.916937521263511e-08,
+        "pvalue_min": 1.2581808195268283e-11,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(none,bow)<->(word2vec,tfidf)": {
+        "correlation_avg": 0.4591560201316298,
+        "correlation_min": 0.30313588850174217,
+        "correlation_max": 0.5168408826945412,
+        "pvalue_geom_avg": 1.4465529127391321e-05,
+        "pvalue_max": 0.004675813757111351,
+        "pvalue_min": 1.416717680313947e-06,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(none,bow)<->(fasttext,bow)": {
+        "correlation_avg": 0.6647309330236161,
+        "correlation_min": 0.6236933797909407,
+        "correlation_max": 0.7723577235772359,
+        "pvalue_geom_avg": 5.013050048625937e-10,
+        "pvalue_max": 5.896107826434655e-09,
+        "pvalue_min": 5.725517486379728e-13,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(none,bow)<->(fasttext,tfidf)": {
+        "correlation_avg": 0.37824235385210997,
+        "correlation_min": 0.32404181184668984,
+        "correlation_max": 0.4262485481997677,
+        "pvalue_geom_avg": 0.00039731436757279236,
+        "pvalue_max": 0.002497603548520182,
+        "pvalue_min": 6.969579207757135e-05,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(none,tfidf)<->(word2vec,bow)": {
+        "correlation_avg": 0.29849012775842043,
+        "correlation_min": 0.2752613240418118,
+        "correlation_max": 0.3147502903600464,
+        "pvalue_geom_avg": 0.005307790251343713,
+        "pvalue_max": 0.010215112582179827,
+        "pvalue_min": 0.003314762347727547,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(none,tfidf)<->(word2vec,tfidf)": {
+        "correlation_avg": 0.6101432442895858,
+        "correlation_min": 0.5818815331010454,
+        "correlation_max": 0.6492450638792102,
+        "pvalue_geom_avg": 1.2166877447573878e-08,
+        "pvalue_max": 5.650200409325318e-08,
+        "pvalue_min": 1.3773821758348435e-09,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(none,tfidf)<->(fasttext,bow)": {
+        "correlation_avg": 0.30778164924506385,
+        "correlation_min": 0.27758420441347276,
+        "correlation_max": 0.33797909407665505,
+        "pvalue_geom_avg": 0.003991167003089514,
+        "pvalue_max": 0.009593800755381231,
+        "pvalue_min": 0.0016122560348743138,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(none,tfidf)<->(fasttext,tfidf)": {
+        "correlation_avg": 0.7181571815718156,
+        "correlation_min": 0.6817653890824622,
+        "correlation_max": 0.7444831591173054,
+        "pvalue_geom_avg": 2.0254675646565967e-11,
+        "pvalue_max": 1.997310709747756e-10,
+        "pvalue_min": 3.7375337936693835e-12,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(word2vec,bow)<->(word2vec,tfidf)": {
+        "correlation_avg": 0.5598141695702671,
+        "correlation_min": 0.437862950058072,
+        "correlation_max": 0.602787456445993,
+        "pvalue_geom_avg": 1.5417701168986477e-07,
+        "pvalue_max": 4.39449274049433e-05,
+        "pvalue_min": 1.8593286321943785e-08,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(word2vec,bow)<->(fasttext,bow)": {
+        "correlation_avg": 0.8908246225319396,
+        "correlation_min": 0.8420441347270615,
+        "correlation_max": 0.9256678281068524,
+        "pvalue_geom_avg": 9.086452900230267e-17,
+        "pvalue_max": 3.931061943101847e-15,
+        "pvalue_min": 5.750710944989919e-18,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(word2vec,bow)<->(fasttext,tfidf)": {
+        "correlation_avg": 0.4099883855981417,
+        "correlation_min": 0.3008130081300813,
+        "correlation_max": 0.5261324041811847,
+        "pvalue_geom_avg": 0.00010578424068647103,
+        "pvalue_max": 0.005002327688135669,
+        "pvalue_min": 9.138464915907464e-07,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(word2vec,tfidf)<->(fasttext,bow)": {
+        "correlation_avg": 0.5319396051103368,
+        "correlation_min": 0.34959349593495936,
+        "correlation_max": 0.5958188153310104,
+        "pvalue_geom_avg": 5.167828051642272e-07,
+        "pvalue_max": 0.0011060799756156235,
+        "pvalue_min": 2.7042349299948373e-08,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(word2vec,tfidf)<->(fasttext,tfidf)": {
+        "correlation_avg": 0.6906697638404955,
+        "correlation_min": 0.6376306620209059,
+        "correlation_max": 0.7375145180023229,
+        "pvalue_geom_avg": 1.1115324600039981e-10,
+        "pvalue_max": 2.685905196723067e-09,
+        "pvalue_min": 5.9124931901511524e-12,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    },
+    "(fasttext,bow)<->(fasttext,tfidf)": {
+        "correlation_avg": 0.4347657762291908,
+        "correlation_min": 0.32404181184668984,
+        "correlation_max": 0.5075493612078978,
+        "pvalue_geom_avg": 4.262752830015711e-05,
+        "pvalue_max": 0.002497603548520182,
+        "pvalue_min": 2.1804302006464752e-06,
+        "commmon_elem_count_avg": 42.0,
+        "commmon_elem_count_min": 42.0,
+        "commmon_elem_count_max": 42.0
+    }
+}
